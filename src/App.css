@@ -2,9 +2,9 @@
   text-align: center;
 }
 
-body{
-  background-image: url(https://e1.pxfuel.com/desktop-wallpaper/756/1004/desktop-wallpaper-dark-ultra-minimalist.jpg)
-
+body {
+  background-color: black;
+  color: darkgray;
 }
 
 .App-logo {
