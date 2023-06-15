@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+body{
+  background-image: url(https://e1.pxfuel.com/desktop-wallpaper/756/1004/desktop-wallpaper-dark-ultra-minimalist.jpg)
+
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
