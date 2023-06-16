@@ -1,5 +1,5 @@
 import { createContext,useState, useEffect } from "react";
-import { onAuthChangedListener,createUserDocumentFromAuth } from "../../utils/firebase/firebase.utils";
+import { onAuthChangedListener,createUserDocumentFromAuth } from "../utils/firebase/firebase.utils";
 
 //Actual value want to access
 export const UserContext = createContext({
