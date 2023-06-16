@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState} from "react";
 import {
   signUpWithEmailAndPassword,
   createUserDocumentFromAuth,
@@ -19,7 +19,6 @@ const SignUpForm = () => {
   const resetFormField = () => {
     setFormField(defualtFormField);
   };
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormField({ ...formField, [name]: value });
