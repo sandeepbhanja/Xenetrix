@@ -8,7 +8,7 @@ const Shop = () =>{
     return(
         <div className='products-container'>
             {currentProducts.map((data)=>(
-                <ProductCart product={data}/>
+                <ProductCart key={data.id} product={data}/>
             ))}
         </div>
     )
