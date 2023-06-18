@@ -34,7 +34,7 @@ const SignInForm = () => {
       if(err.code==='auth/wrong-password'){
         alert('Wrong password or Username');
       }
-      console.log(err);
+      alert(err);
     }
   };
 
