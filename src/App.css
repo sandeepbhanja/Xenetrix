@@ -3,8 +3,11 @@
 }
 
 body {
-  background-color: #222831;
+  background-color: hsl(216, 18%, 16%);
   color: #EEEEEE;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .App-logo {
